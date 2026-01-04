@@ -1,3 +1,3 @@
-//TODO importing module
-import "./shopingCart";
-console.log("importing module");
+//TODO Importing module
+import "./shopingCart.js";
+console.log("Importing module");

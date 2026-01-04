@@ -1,2 +1,2 @@
-//TODO exporting module
-console.log("exporting module");
+//TODO Exporting module
+console.log("Exporting module");
