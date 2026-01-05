@@ -8,4 +8,10 @@ export const addToCart = function (products, quantity) {
 };
 const totalPrice = 237;
 const totalQuantity = 23;
-export { totalPrice, totalQuantity as tq };
+// export { totalPrice, totalQuantity as tq };
+
+//! default Export ::
+export default function (products, quantity) {
+  cart.push({ products, quantity });
+  console.log(`${quantity} ${products} added to cart`);
+}
