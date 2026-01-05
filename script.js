@@ -5,3 +5,4 @@
 // console.log(price, tq);
 import * as shopingCart from "./shopingCart.js";
 shopingCart.addToCart("coin", 5);
+console.log(shopingCart.totalPrice);
