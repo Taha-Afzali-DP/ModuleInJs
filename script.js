@@ -23,10 +23,12 @@ const getLastPost = async function () {
   return { title: data.at(-1).title, text: data.at(-1).body };
 };
 const lastPost = getLastPost();
-lastPost
-  .then((data) => {
-    console.log(data);
-  })
-  .catch((err) => {
-    console.error(err);
-  });
+// lastPost
+//   .then((data) => {
+//     console.log(data);
+//   })
+//   .catch((err) => {
+//     console.error(err);
+//   });
+const lastPost2 = await getLastPost();
+console.log(lastPost2);
