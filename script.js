@@ -45,4 +45,10 @@ testDefaultExporte("watch", 100);
   const orderStok = function (products, quantity) {
     console.log(`${quantity} ${products} order From Splier`);
   };
+  return {
+    addToCart,
+    cart,
+    totalPrice,
+    totalQuantity,
+  };
 })();
