@@ -1,4 +1,4 @@
-//TODO Exporting module
+// TODO Exporting module
 console.log("start feching users");
 await fetch("https://jsonplaceholder.typicode.com/users");
 console.log("finish fdching");
