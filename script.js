@@ -32,7 +32,7 @@ testDefaultExporte("watch", 100);
 //   });
 // const lastPost2 = await getLastPost();
 // console.log(lastPost2);
-(function () {
+const shopingCart = (function () {
   const cart = [];
   const shopingCart = 10;
   const totalPrice = 237;
@@ -52,3 +52,6 @@ testDefaultExporte("watch", 100);
     totalQuantity,
   };
 })();
+shopingCart.addToCart("Coin", 30);
+shopingCart.addToCart("kif", 26);
+console.log(shopingCart);
