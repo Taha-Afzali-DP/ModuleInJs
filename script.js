@@ -21,3 +21,4 @@ const getLastPost = async function () {
   const data = await res.json();
   console.log(data);
 };
+getLastPost();
