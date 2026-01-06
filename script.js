@@ -37,4 +37,12 @@ testDefaultExporte("watch", 100);
   const shopingCart = 10;
   const totalPrice = 237;
   const totalQuantity = 23;
+  const addToCart = function (products, quantity) {
+    cart.push({ products, quantity });
+    console.log(`${quantity} ${products} added to cart`);
+  };
+
+  const orderStok = function (products, quantity) {
+    console.log(`${quantity} ${products} order From Splier`);
+  };
 })();
