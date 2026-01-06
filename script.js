@@ -32,3 +32,9 @@ testDefaultExporte("watch", 100);
 //   });
 // const lastPost2 = await getLastPost();
 // console.log(lastPost2);
+(function () {
+  const cart = [];
+  const shopingCart = 10;
+  const totalPrice = 237;
+  const totalQuantity = 23;
+})();
