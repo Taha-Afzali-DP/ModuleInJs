@@ -22,7 +22,7 @@ const getLastPost = async function () {
   console.log(data);
   return { title: data.at(-1).title, text: data.at(-1).body };
 };
-const lastPost = getLastPost();
+// const lastPost = getLastPost();
 // lastPost
 //   .then((data) => {
 //     console.log(data);
