@@ -68,3 +68,4 @@ const state = {
 const stateClone = Object.assign({}, state);
 console.log(stateClone);
 const stateCloneDeep = cloneDeep(state);
+console.log(stateCloneDeep);
