@@ -1,6 +1,6 @@
 // TODO Exporting module
 console.log("start feching users");
-await fetch("https://jsonplaceholder.typicode.com/users");
+// await fetch("https://jsonplaceholder.typicode.com/users");
 console.log("finish fdching");
 console.log("Exporting module");
 const shopingCost = 10;

@@ -32,30 +32,30 @@ testDefaultExporte("watch", 100);
 //   });
 // const lastPost2 = await getLastPost();
 // console.log(lastPost2);
-const shopingCart = (function () {
-  const cart = [];
-  const shopingCart = 10;
-  const totalPrice = 237;
-  const totalQuantity = 23;
-  const addToCart = function (products, quantity) {
-    cart.push({ products, quantity });
-    console.log(`${quantity} ${products} added to cart`);
-  };
+// const shopingCart = (function () {
+//   const cart = [];
+//   const shopingCart = 10;
+//   const totalPrice = 237;
+//   const totalQuantity = 23;
+//   const addToCart = function (products, quantity) {
+//     cart.push({ products, quantity });
+//     console.log(`${quantity} ${products} added to cart`);
+//   };
 
-  const orderStok = function (products, quantity) {
-    console.log(`${quantity} ${products} order From Splier`);
-  };
-  return {
-    addToCart,
-    cart,
-    totalPrice,
-    totalQuantity,
-  };
-})();
-shopingCart.addToCart("Coin", 30);
-shopingCart.addToCart("kif", 26);
-console.log(shopingCart);
-import cloneDeep from "./node_modules/lodash-es/cloneDeep.js";
+//   const orderStok = function (products, quantity) {
+//     console.log(`${quantity} ${products} order From Splier`);
+//   };
+//   return {
+//     addToCart,
+//     cart,
+//     totalPrice,
+//     totalQuantity,
+//   };
+// })();
+// shopingCart.addToCart("Coin", 30);
+// shopingCart.addToCart("kif", 26);
+// console.log(shopingCart);
+// import cloneDeep from "./node_modules/lodash-es/cloneDeep.js";
 
 const state = {
   cart: [
