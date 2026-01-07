@@ -55,3 +55,4 @@ const shopingCart = (function () {
 shopingCart.addToCart("Coin", 30);
 shopingCart.addToCart("kif", 26);
 console.log(shopingCart);
+import cloneDeep from "./node_modules/lodash-es/cloneDeep.js";
